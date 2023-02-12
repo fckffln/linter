@@ -10,6 +10,7 @@ function config(projects) {
     return {
         root: true,
         parserOptions: {
+            sourceType: 'module',
             ecmaFeatures: {
                 jsx: true,
                 legacyDecorators: true,
