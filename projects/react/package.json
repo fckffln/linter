@@ -1,0 +1,50 @@
+{
+  "name": "@fckff/linter-rc",
+  "version": "1.0.0",
+  "repository": "https://github.com/fckffln/linter.git",
+  "author": "fckffln",
+  "license": "MIT",
+  "peerDependencies": {
+        "@typescript-eslint/eslint-plugin": "5.46.0",
+        "@typescript-eslint/parser": "5.46.0",
+        "eslint-config-airbnb-base": "15.0.0",
+        "eslint-plugin-react": "7.32.2",
+        "eslint-plugin-react-hooks": "4.6.0",
+        "eslint": "8.29.0",
+        "eslint-config-prettier": "8.5.0",
+        "eslint-plugin-import": "2.26.0",
+        "eslint-plugin-jsdoc": "39.6.4",
+        "eslint-plugin-prefer-arrow": "1.2.3",
+        "eslint-plugin-prettier": "4.2.1",
+        "prettier": "2.8.1"
+  },
+    "eslintConfig": {
+        "env": {
+            "browser": true,
+            "node": true,
+            "amd": true
+        }
+    },
+    "exports": {
+        "./eslint": {
+            "import": "./src/eslint.js",
+            "esm2020": "./src/eslint.js",
+            "es2020": "./src/eslint.js",
+            "es2015": "./src/eslint.js",
+            "node": "./src/eslint.js",
+            "default": "./src/eslint.js",
+            "require": "./src/eslint.js",
+            "module": "./src/eslint.js"
+        },
+        "./prettier": {
+            "import": "./src/prettier.js",
+            "esm2020": "./src/prettier.js",
+            "es2020": "./src/prettier.js",
+            "es2015": "./src/prettier.js",
+            "node": "./src/prettier.js",
+            "default": "./src/prettier.js",
+            "require": "./src/prettier.js",
+            "module": "./src/prettier.js"
+        }
+    }
+}
