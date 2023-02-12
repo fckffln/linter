@@ -10,7 +10,7 @@ const config = {
     trailingComma: 'all',
     tabWidth: 4,
     printWidth: 100,
-    singleQuote: true
+    singleQuote: true,
 };
 
 exports.prettierConfig = config;
