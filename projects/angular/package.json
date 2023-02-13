@@ -4,6 +4,13 @@
   "repository": "https://github.com/fckffln/linter.git",
   "author": "fckffln",
   "license": "ISC",
+  "keywords": [
+    "linter", "eslint",
+    "prettier", "lint",
+    "angular",
+    "typescript", "ts",
+    "javascript", "js"
+  ],
   "peerDependencies": {
         "@typescript-eslint/eslint-plugin": "5.46.0",
         "@typescript-eslint/parser": "5.46.0",
