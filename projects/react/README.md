@@ -1,22 +1,26 @@
 # @fckff / Linter-RC
 
-> React linter library for your projects
+React linter library for your projects
 
-### `Contents`
+## Contents
 
 - [Install](#install)
 - [Usage](#usage)
 - [License](#license)
 
-### `Install`
+## Install
 
 Install via npm
-> npm install @fckff/linter-rc
+```bash
+npm install -D @fckff/linter-rc
+```
 
 Install via pnpm
-> pnpm add @fckff/linter-rc
+```bash
+pnpm add -D @fckff/linter-rc
+```
 
-### `Usage`
+## Usage
 
 ### ESLint
 
@@ -43,7 +47,7 @@ module.exports = {
 }
 ```
 
-### `License`
+## License
 
 [LICENSE.md](LICENSE.md)
 

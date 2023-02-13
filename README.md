@@ -1,36 +1,43 @@
 # fckffln / Linter
 
-> Frontend linter library for React/Angular projects
+Frontend linter library for React/Angular projects
 
-### `Contents`
+## Contents
 
 - [Links](#links)
 - [Install](#install)
 - [Usage](#usage)
 - [License](#license)
 
-### `Links`
+## Links
 
-- #### [Linter Angular library](projects/angular/README.md)
-- #### [Linter React library](projects/react/README.md)
+- [Linter Angular library](projects/angular/README.md)
+- [Linter React library](projects/react/README.md)
 
-### `Install`
+## Install
 
 ### angular
 
 Install via npm
-> npm install @fckff/linter-ng
+```bash
+npm install -D @fckff/linter-ng
+```
 
-Install via pnpm
-> pnpm add @fckff/linter-ng
+Install via pnpm 
+```bash
+pnpm add -D @fckff/linter-ng
+```
 
 ### react
 
 Install via npm
-> npm install @fckff/linter-rc
-
+```bash
+npm install -D @fckff/linter-rc
+```
 Install via pnpm
-> pnpm add @fckff/linter-rc
+```bash
+pnpm add -D @fckff/linter-rc
+```
 
 ### `Usage`
 

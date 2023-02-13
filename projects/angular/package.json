@@ -1,9 +1,9 @@
 {
   "name": "@fckff/linter-ng",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": "https://github.com/fckffln/linter.git",
   "author": "fckffln",
-  "license": "MIT",
+  "license": "ISC",
   "peerDependencies": {
         "@typescript-eslint/eslint-plugin": "5.46.0",
         "@typescript-eslint/parser": "5.46.0",

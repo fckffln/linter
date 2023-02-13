@@ -2,7 +2,7 @@
   "name": "linter",
   "repository": "https://github.com/fckffln/linter.git",
   "author": "fckffln",
-  "license": "MIT",
+  "license": "ISC",
   "scripts": {
     "clear:ng": "rm -rf dist/@fckff/linter-ng",
     "clear:rc": "rm -rf dist/@fckff/linter-rc",

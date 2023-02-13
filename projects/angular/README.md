@@ -1,22 +1,25 @@
 # @fckff / Linter-NG
 
-> Angular linter library for your projects
+Angular linter library for your projects
 
-### `Contents`
+## Contents
 
 - [Install](#install)
 - [Usage](#usage)
 - [License](#license)
 
-### `Install`
+## Install
 
 Install via npm
-> npm install @fckff/linter-ng
-
+```bash
+npm install -D @fckff/linter-ng
+```
 Install via pnpm
-> pnpm add @fckff/linter-ng
+```bash
+pnpm add -D @fckff/linter-ng
+```
 
-### `Usage`
+## Usage
 
 ### ESLint
 
@@ -54,7 +57,7 @@ module.exports = {
 ```
 3. Setting up TSLint in the IDE
 
-### `License`
+## License
 
 [LICENSE.md](LICENSE.md)
 
