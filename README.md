@@ -70,7 +70,7 @@ module.exports = {
 }
 ```
 
-### `License`
+### License
 
 [LICENSE.md](LICENSE.md)
 
