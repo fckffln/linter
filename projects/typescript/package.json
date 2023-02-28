@@ -1,31 +1,27 @@
 {
-  "name": "@fckff/linter-ng",
-  "version": "1.5.0",
+  "name": "@fckff/linter",
+  "version": "0.5.0",
   "repository": "https://github.com/fckffln/linter.git",
   "author": "fckffln",
   "license": "ISC",
   "keywords": [
     "linter", "eslint",
     "prettier", "lint",
-    "angular",
+    "react",
     "typescript", "ts",
     "javascript", "js"
   ],
   "peerDependencies": {
         "@typescript-eslint/eslint-plugin": "5.46.0",
         "@typescript-eslint/parser": "5.46.0",
-        "@angular-eslint/builder": "13.0.1",
-        "@angular-eslint/eslint-plugin": "13.0.1",
-        "@angular-eslint/eslint-plugin-template": "13.0.1",
-        "@angular-eslint/schematics": "13.0.1",
-        "@angular-eslint/template-parser": "13.0.1",
+        "eslint-config-airbnb-base": "15.0.0",
+        "babel-eslint": "10.1.0",
         "eslint": "8.29.0",
         "eslint-config-prettier": "8.5.0",
         "eslint-plugin-import": "2.26.0",
         "eslint-plugin-jsdoc": "39.6.4",
         "eslint-plugin-prefer-arrow": "1.2.3",
         "eslint-plugin-prettier": "4.2.1",
-        "tslint": "6.1.3",
         "prettier": "2.8.1"
   },
     "eslintConfig": {
@@ -55,16 +51,6 @@
             "default": "./src/prettier.js",
             "require": "./src/prettier.js",
             "module": "./src/prettier.js"
-        },
-        "./tslint": {
-            "import": "./tslint.json",
-            "esm2020": "./tslint.json",
-            "es2020": "./tslint.json",
-            "es2015": "./tslint.json",
-            "node": "./tslint.json",
-            "default": "./tslint.json",
-            "require": "./tslint.json",
-            "module": "./tslint.json"
         }
     }
 }

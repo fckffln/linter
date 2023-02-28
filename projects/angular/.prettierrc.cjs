@@ -7,13 +7,9 @@
  */
 
 // require is only supported in cjs
-const prettier = require('./src/prettier').prettierConfig;
-module.exports = {
-    ...prettier,
-}
+const prettier = require('./src/prettier');
+module.exports = prettier;
 
 // External usage example
-// const prettier = module.require('@fckff/linter-ng/prettier').prettierConfig;
-// module.exports = {
-//     ...prettier,
-// }
+// const prettier = module.require('@fckff/linter-ng/prettier');
+// module.exports = prettier;

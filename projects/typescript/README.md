@@ -1,6 +1,6 @@
-# @fckff / Linter-NG
+# @fckff / Standard Linter
 
-Angular linter library for your projects
+Standard linter library for your projects
 
 ## Contents
 
@@ -12,11 +12,12 @@ Angular linter library for your projects
 
 Install via npm
 ```bash
-npm install -D @fckff/linter-ng
+npm install -D @fckff/linter
 ```
+
 Install via pnpm
 ```bash
-pnpm add -D @fckff/linter-ng
+pnpm add -D @fckff/linter
 ```
 
 ## Usage
@@ -27,9 +28,9 @@ pnpm add -D @fckff/linter-ng
 2. Importing files from libraries
 ```js
 // import settings
-const angular = module.require('@fckff/linter-ng/eslint');
+const eslint = module.require('@fckff/linter/eslint');
 // set config
-module.exports = angular();
+module.exports = eslint();
 ```
 3. Setting up ESLint in the IDE
 
@@ -39,21 +40,10 @@ module.exports = angular();
 2. Importing files from libraries
 ```js
 // import settings
-const angular = module.require('@fckff/linter-ng/prettier');
+const prettier = module.require('@fckff/linter/prettier');
 // set config
-module.exports = angular;
+module.exports = prettier;
 ```
-
-### `deprecated` TSLint
-
-1. Create a `tslint.json` file in the root directory of the project
-2. Importing files from libraries
-```json
-{
-  "extends": "@fckff/linter-ng/tslint.json"
-}
-```
-3. Setting up TSLint in the IDE
 
 ## License
 

@@ -13,10 +13,13 @@
   "scripts": {
     "clear:ng": "rm -rf dist/@fckff/linter-ng",
     "clear:rc": "rm -rf dist/@fckff/linter-rc",
+    "clear:ts": "rm -rf dist/@fckff/linter",
     "build:ng": "npm run clear:ng && mkdir -p dist/@fckff/linter-ng && cd projects/angular && cp -a ./ ../../dist/@fckff/linter-ng && cd ..",
     "build:rc": "npm run clear:rc && mkdir -p dist/@fckff/linter-rc && cd projects/react && cp -a ./ ../../dist/@fckff/linter-rc && cd ..",
+    "build:ts": "npm run clear:ts && mkdir -p dist/@fckff/linter && cd projects/typescript && cp -a ./ ../../dist/@fckff/linter && cd ..",
     "publish:ng": "npm run build:ng && cd dist/@fckff/linter-ng && npm publish --access=public",
-    "publish:rc": "npm run build:rc && cd dist/@fckff/linter-rc && npm publish --access=public"
+    "publish:rc": "npm run build:rc && cd dist/@fckff/linter-rc && npm publish --access=public",
+    "publish:ts": "npm run build:ts && cd dist/@fckff/linter && npm publish --access=public"
   },
   "dependencies": {
     "@fckff/linter-ng": "./projects/angular",

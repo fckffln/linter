@@ -7,10 +7,10 @@
  */
 
 // require is only supported in cjs
-const eslint = require('./src/eslint');
+const eslint = require('./projects/typescript/src/eslint');
 module.exports = eslint();
 
 // External usage example
-// const eslint = module.require('@fckff/linter-rc/eslint');
+// const eslint = module.require('@fckff/linter/eslint');
 // module.exports = eslint();
 

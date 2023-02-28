@@ -6,11 +6,15 @@
  * found in the LICENSE file at https://fckff.app/license
  */
 
+/**
+ * @type {{singleQuote: boolean, printWidth: number, useTabs: boolean, trailingComma: string, tabWidth: number}}
+ */
 const config = {
-    trailingComma: 'all',
-    tabWidth: 4,
-    printWidth: 100,
-    singleQuote: true,
+	trailingComma: 'all',
+	tabWidth: 4,
+	printWidth: 100,
+	singleQuote: true,
+	useTabs: true
 };
 
-exports.prettierConfig = config;
+module.exports = config;

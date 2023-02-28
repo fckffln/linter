@@ -7,10 +7,9 @@
  */
 
 // require is only supported in cjs
-const eslint = require('./src/eslint');
-module.exports = eslint();
+const prettier = require('./src/prettier');
+module.exports = prettier;
 
 // External usage example
-// const eslint = module.require('@fckff/linter-rc/eslint');
-// module.exports = eslint();
-
+// const prettier = module.require('@fckff/linter/prettier');
+// module.exports = prettier;

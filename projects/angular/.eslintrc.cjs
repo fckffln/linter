@@ -7,10 +7,10 @@
  */
 
 // require is only supported in cjs
-const eslint = require('./src/eslint').eslintConfig;
-module.exports = eslint('tsconfig.lib.json');
+const eslint = require('./src/eslint');
+module.exports = eslint();
 
 // External usage example
-// const eslint = module.require('@fckff/linter-ng/eslint').eslintConfig;
-// module.exports = eslint('tsconfig.json');
+// const eslint = module.require('@fckff/linter-ng/eslint');
+// module.exports = eslint();
 

@@ -28,9 +28,9 @@ pnpm add -D @fckff/linter-rc
 2. Importing files from libraries
 ```js
 // import settings
-const react = module.require('@fckff/linter-rc/eslint').eslintConfig;
+const react = module.require('@fckff/linter-rc/eslint');
 // set config
-module.exports = react('tsconfig.json');
+module.exports = react();
 ```
 3. Setting up ESLint in the IDE
 
@@ -40,14 +40,13 @@ module.exports = react('tsconfig.json');
 2. Importing files from libraries
 ```js
 // import settings
-const react = module.require('@fckff/linter-rc/prettier').prettierConfig;
+const react = module.require('@fckff/linter-rc/prettier');
 // set config
-module.exports = {
-     ...react,
-}
+module.exports = react;
 ```
 
 ## License
 
 [LICENSE.md](LICENSE.md)
 
+#### ❤ Thanks for [patron me](https://patreon.com/fckffln) ❤
